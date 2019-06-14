@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0; /* TRBL */
+    background-color: #10131b;
+    color: white;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+header .header-left h1 {
+    font-size: 3.2rem;
+    margin-left: 1rem;
+}
+
+header .header-right .fa-bars {
+    font-size: 3.2rem;
+    margin-right: 2rem;
+}
+
+.header-left .logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+}
+
+.hero-section {
+    height: 40rem;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin: 1.2rem 0;
+}
+
+.hero-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section .hero-text {
+    font-size: 1.8rem;
+    margin-bottom: 2.7rem;
+}
+
+.hero-section .hero-button {
+    margin: 0 auto;
+    background-color: #1c95e9;
+    border: 1px solid #1c95e9;
+    border-radius: 0.3rem;
+    width: 11.5rem;
+    height: 3.2rem;
+    color: white;
+}
